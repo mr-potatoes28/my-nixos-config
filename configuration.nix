@@ -107,12 +107,14 @@
   fastfetch
   obs-studio
   pkgs.vesktop
+  pkgs.discord
   btop
   prismlauncher
-  blender-hip
+  #blender-hip
   links2
   neovim
-  xfce.xfburn
+  #xfce.xfburn
+  
   ];
 
   programs.steam.enable = true;
