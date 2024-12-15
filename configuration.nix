@@ -10,8 +10,9 @@
       ./hardware-configuration.nix
     ];
 
+  # enable if i have amd gpu
   # amd gpu drivers
-  boot.initrd.kernelModules = [ "amdgpu" ];
+  # boot.initrd.kernelModules = [ "amdgpu" ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
