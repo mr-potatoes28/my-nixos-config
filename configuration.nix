@@ -116,7 +116,7 @@
   links2
   neovim
   #xfce.xfburn
-  
+  pkgs.obsidian
   ];
 
   programs.steam.enable = true;
